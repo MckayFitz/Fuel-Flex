@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/border_layout"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvAppTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="serif"
+        android:text="@string/title"
+        android:textColor="#126ADE"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="187dp"
+        android:layout_height="5dp"
+        android:layout_marginBottom="16dp"
+        android:background="#000000" />
+
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_marginBottom="16dp"
+        android:contentDescription="@string/logo"
+        android:src="@drawable/download" />
+
+    <TextView
+        android:id="@+id/tvPrompt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="serif"
+        android:text="@string/path"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="248dp"
+        android:layout_height="5dp"
+        android:layout_marginBottom="16dp"
+        android:background="#000000" />
+
+
+    <Button
+        android:id="@+id/btnWorkouts"
+        android:layout_width="260dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="8dp"
+        android:background="#ef2020"
+        android:elevation="8dp"
+        android:fontFamily="serif"
+        android:gravity="center"
+        android:paddingTop="8dp"
+        android:text="@string/work"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnNutrition"
+        android:layout_width="260dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="40dp"
+        android:background="#029B02"
+        android:elevation="20dp"
+        android:fontFamily="serif"
+        android:gravity="center"
+        android:paddingTop="8dp"
+        android:text="@string/nutrition"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <include layout="@layout/widget_loading_spinner" />
+</LinearLayout>

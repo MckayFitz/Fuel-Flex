@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FuelFlex</string>
+    <string name="title">Fuel Flex</string>
+    <string name="path">Select Your Path!</string>
+    <string name="work">Workouts</string>
+    <string name="nutrition">Nutrition</string>
+    <string name="logo">logo</string>
+    <string name="workouttitle">Workouts</string>
+    <string name="mon">Monday: Chest and Triceps</string>
+    <string name="tues">Tuesday: Back and Biceps</string>
+    <string name="wends">Wednesday: Legs</string>
+    <string name="thurs">Thursday: Shoulders and Abs</string>
+    <string name="fri">Friday: Full Body and Cardio</string>
+    <string name="breakfeast">Breakfast:</string>
+    <string name="lun">Lunch:</string>
+    <string name="din">Dinner:</string>
+    <string name="load">Loading...</string>
+
+
+
+    <string name="mont">
+        Bench Press – 4 sets of 8-10 reps\n
+        Incline Dumbbell Press – 3 sets of 10-12 reps\n
+        Tricep Dips – 3 sets of 12 reps
+    </string>
+    <string name="tuest">Pull-Ups (Assisted if needed) – 4 sets to failure\n
+    Bent Over Rows – 4 sets of 10-12 reps\n
+    Barbell Curls – 3 sets of 12 reps</string>
+    <string name="wendst">Squats – 4 sets of 10-12 reps\n
+    Leg Press – 3 sets of 12 reps\n
+    Calf Raises – 4 sets of 15-20 reps</string>
+    <string name="thurst">Overhead Shoulder Press – 4 sets of 10 reps\n
+    Lateral Raises – 3 sets of 15 reps\n
+    Plank – 3 sets of 1 minute</string>
+    <string name="frit">Deadlift – 4 sets of 8-10 reps\n
+    Push-Ups – 3 sets to failure\n
+    Burpees – 3 sets of 15 reps</string>
+
+    <string name="nut1">
+        Scrambled Eggs (3 eggs) with Spinach and Cherry Tomatoes\n
+        Whole Grain Toast (1 slice)\n
+        Green Tea or Black Coffee\n
+    </string>
+    <string name="nut2">
+        Grilled Chicken Salad (mixed greens, cucumber, bell peppers, olive oil dressing)\n
+        Quinoa (1 cup)\n
+    </string>
+    <string name="nut3">
+        Baked Salmon with Lemon and Dill\n
+        Steamed Broccoli\n
+        Sweet Potato (medium-sized, roasted)
+    </string>
+
+
+</resources>

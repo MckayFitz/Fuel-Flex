@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/border_layout"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/worklayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/tvAppTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:fontFamily="serif"
+            android:text="@string/title"
+            android:textColor="#126ADE"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+        <View
+            android:id="@+id/view2"
+            android:layout_width="187dp"
+            android:layout_height="5dp"
+            android:layout_marginBottom="16dp"
+            android:background="#000000" />
+
+        <TextView
+            android:id="@+id/tvPrompt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:fontFamily="serif"
+            android:text="@string/workouttitle"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <!-- Monday -->
+        <TextView
+            android:id="@+id/mon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="serif"
+            android:text="@string/mon"
+            android:textColor="#000000"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/mont"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:fontFamily="serif"
+            android:text="@string/mont"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="italic" />
+
+        <!-- Tuesday -->
+        <TextView
+            android:id="@+id/tues"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="serif"
+            android:text="@string/tues"
+            android:textColor="#000000"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tuest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:fontFamily="serif"
+            android:text="@string/tuest"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="italic" />
+
+        <!-- Wednesday -->
+        <TextView
+            android:id="@+id/wends"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="serif"
+            android:text="@string/wends"
+            android:textColor="#000000"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/wt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:fontFamily="serif"
+            android:text="@string/wendst"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="italic" />
+
+        <!-- Thursday -->
+        <TextView
+            android:id="@+id/th"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="serif"
+            android:text="@string/thurs"
+            android:textColor="#000000"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tht"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:fontFamily="serif"
+            android:text="@string/thurst"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="italic" />
+
+        <!-- Friday -->
+        <TextView
+            android:id="@+id/fri"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="serif"
+            android:text="@string/fri"
+            android:textColor="#000000"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/frit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:fontFamily="serif"
+            android:text="@string/frit"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="italic" />
+
+    </LinearLayout>
+</ScrollView>

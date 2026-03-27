@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/border_layout"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/nutLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/tvAppTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:fontFamily="serif"
+            android:text="@string/title"
+            android:textColor="#126ADE"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+        <View
+            android:id="@+id/view2"
+            android:layout_width="187dp"
+            android:layout_height="5dp"
+            android:layout_marginBottom="16dp"
+            android:background="#000000" />
+
+        <TextView
+            android:id="@+id/tvPrompt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:fontFamily="serif"
+            android:text="@string/nutrition"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <!-- Breakfast -->
+        <TextView
+            android:id="@+id/breakfeast"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="serif"
+            android:text="@string/breakfeast"
+            android:textColor="#000000"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/nut1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:fontFamily="serif"
+            android:gravity="center_horizontal"
+            android:lineSpacingExtra="5dp"
+            android:padding="4dp"
+            android:text="@string/nut1"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="italic" />
+
+        <!-- Lunch -->
+        <TextView
+            android:id="@+id/lun"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="serif"
+            android:text="@string/lun"
+            android:textColor="#000000"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/nut2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:fontFamily="serif"
+            android:gravity="center_horizontal"
+            android:lineSpacingExtra="5dp"
+            android:padding="4dp"
+            android:text="@string/nut2"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="italic" />
+
+        <!-- Dinner -->
+        <TextView
+            android:id="@+id/Din"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="serif"
+            android:text="@string/din"
+            android:textColor="#000000"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/nut3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:fontFamily="serif"
+            android:gravity="center_horizontal"
+            android:lineSpacingExtra="5dp"
+            android:padding="4dp"
+            android:text="@string/nut3"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="italic" />
+        <include layout="@layout/widget_loading_spinner" />
+    </LinearLayout>
+</ScrollView>
